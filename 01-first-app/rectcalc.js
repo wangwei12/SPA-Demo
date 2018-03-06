@@ -1,6 +1,6 @@
 $(function() {
     var $width = $('#rectangle-width');
-i      var $height = $('#rectangle-height');
+      var $height = $('#rectangle-height');
         var $calc = $('#rectangle-calc');
 
         $calc.click(function() {
