@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>矩形计算器</title> 
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  
+    <style>
+      .rectangle{
+        width:500px;
+        margin:50px auto;
+      }
+    </style>
+</head>
+ <body>
+     <div class="rectangle" >
+       <input id="rect-width" type="text" class="form-control" placeholder="请输入宽度" data-label="宽度" autofocus>
+           <br>
+       <div id="rectangle-width-validate" class="validate" style="color:red;"></div>
+       <input id="rect-height" type="text"  class="form-control" placeholder="请输入高度" data-label="高度">
+             <br>
+       <div id="rectangle-height-validate" class="validate" style="color:red;"></div>
+       <input id="rect-calc" type="button" value="计算" class="btn btn-success">
+       <br>
+       <label>周长：</label>
+       <input id="rect-peri" type="text"  class="form-control" disabled>
+       <br>
+       <label>面积：</label>
+       <input id="rect-area" type="text"  class="form-control" disabled>
+       <script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+       <script src="forms-validation.js"></script>
+       <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </div>
+</body>
+</html>

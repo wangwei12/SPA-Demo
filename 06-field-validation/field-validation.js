@@ -5,7 +5,6 @@ $(function(){
   var reperi=$('#rect-peri');
   var rearea=$('#rect-area');
 
-
   recalc.click(function(){
     var width=parseFloat(rewidth.val());
     var height=parseFloat(reheight.val());
